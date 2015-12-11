@@ -1,0 +1,22 @@
+.main-header {
+	color: blue;
+	background-color: #d3d3d3;
+	height: 200px;
+}
+
+h1 {
+	float: left;
+}
+
+.main-nav {
+	float: right;
+}
+
+ul {
+	list-style: none;
+	color: blue;
+}
+
+ul li {
+	display: inline-block;
+}
