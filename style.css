@@ -1,22 +1,44 @@
+
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+body {
+	line-height: 1.6;
+	color: #3a3a3a;
+}
+
+a { 
+	color: #fff;
+	text-decoration: none;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Layout Containers ---- */
+
+.container {
+	width: 70%;
+	margin: 0 auto;
+}
+
 .main-header {
-	color: blue;
-	background-color: #d3d3d3;
-	height: 200px;
+	background: #3acec2;
+	padding: 1em 0;
 }
 
-h1 {
-	float: left;
+.main-footer {
+	text-align: center;
+	padding: 2em 0;
+	background: #d9e4ea;
 }
 
-.main-nav {
-	float: right;
-}
+/* ---- Page Elements ---- */
 
-ul {
-	list-style: none;
-	color: blue;
-}
 
-ul li {
-	display: inline-block;
-}
+
+
+
+
