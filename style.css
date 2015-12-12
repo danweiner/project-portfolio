@@ -37,17 +37,16 @@ a {
 .name,
 .main-nav,
 .main-nav li {
-	text-align: center;
-	background: #fff;
-	margin-right: 20px;
-	margin-left: 20px;
-	display: inline;
+	background-color: #fff;
+	display: inline-block;
 }
+
 
 .main-nav a {
 	font-size: .95em;
 	color: #3acec2;
 	text-transform: uppercase;
+	display: 
 }
 
 .main-nav a:hover {
@@ -73,6 +72,15 @@ a {
 	text-align: center;
 	padding: 2em 0;
 	background: #d9e4ea;
+}
+
+.col {
+	display: inline-block;
+	width: 50%;
+	margin: -4px;
+	vertical-align: top;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 
