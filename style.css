@@ -32,6 +32,8 @@ a {
 
 .name {
 	font-size: 1.25em;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .main-nav {
@@ -41,6 +43,7 @@ a {
 .main-nav li {
 	float: left;
 	margin-left: 12px;
+	margin-right: 10px;
 }
 
 .name {
@@ -82,7 +85,7 @@ a {
 .col-1, .col-2 {
 	float: left;
 	width: 50%;
-	height: 1000px;
+	height: 100%;
 	padding: 30px;
 	border: 1px solid black;
 	box-sizing: border-box;
@@ -95,10 +98,41 @@ a {
 
 .col-1 img {
 	width: 200px;
+	height: 200px;
 	float: left;
 	padding-right: 10px;
 	margin: 10px 20px 10px 0px;
 	border-right: 1px solid lightgray;
+}
+
+.col-2 img {
+	width: 200px;
+	height: 200px;
+	float: right;
+	padding-left: 10px;
+	margin: 10px 0px 10px 20px;
+	border-left: 1px solid lightgray;
+}
+
+.wrap {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.col-3 img {
+	width: 500px;
+	height: 500px;
+	float: left;
+	padding-right: 10px;
+	margin: 10px 20px 10px 0px;
+}
+
+.social-pics img {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
 }
 
 .clearfix::after {
