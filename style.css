@@ -92,6 +92,7 @@ a {
 	width: 50%;
 	height: 100%;
 	padding: 30px;
+	margin-bottom: 20px;
 	border: 1px solid black;
 	box-sizing: border-box;
 }
@@ -136,7 +137,9 @@ a {
 }
 
 .image-gallery {
-	margin: 0 auto;
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
 }
 
 .image-gallery img {
@@ -166,7 +169,6 @@ a {
 
 /* ---- Positioning Styles ---- */
 
-
 .main-header {
 	position: relative;
 }
@@ -182,3 +184,6 @@ a {
 	top: 15px;
 	right: 20px;
 }
+
+
+
